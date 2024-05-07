@@ -6,3 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bitcoin = { version = "0.31.0", features = ["serde", "std"], default-features = false }
+bitcoin_hashes = "0.14.0"
+clap = { version = "4.5.4", features = ["derive"] }
+esplora-client =  { version = "0.7.0", features = ["blocking-https"] }
+serde_json = "1.0.116"
+hex = { package = "hex-conservative", version = "0.2.0", default-features = false, features = ["alloc"] }
