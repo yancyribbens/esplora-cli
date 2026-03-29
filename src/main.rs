@@ -162,7 +162,7 @@ fn main() {
             if let Some(h) = height {
                 bh = Some(h.parse().unwrap());
             }
-            let r = blocking_client.get_blocks(bh).unwrap();
+            let r = blocking_client.get_block_infos(bh).unwrap();
             println!("{:#?}", r);
         }
     }
