@@ -12,7 +12,7 @@ use std::str::FromStr;
 
 use bitcoin::consensus::encode::deserialize;
 use bitcoin::Transaction;
-use hex::test_hex_unwrap as hex;
+use hex::decode_to_vec;
 
 #[derive(Parser)]
 #[command(version, about, long_about = None)]
@@ -123,7 +123,7 @@ fn main() {
             println!("{:#?}", r);
         }
         Commands::Broadcast { transaction_hex } => {
-            let tx_bytes = hex!(transaction_hex);
+            let tx_bytes = decode_to_vec(transaction_hex).unwrap();
             let tx: Transaction = deserialize(&tx_bytes).unwrap();
             blocking_client.broadcast(&tx).unwrap();
         }
