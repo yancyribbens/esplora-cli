@@ -29,6 +29,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **CLI**: Initial release with blocking CLI implementation for [rust-esplora-client](https://github.com/bitcoindevkit/rust-esplora-client) ([9e23249](https://github.com/1estart/esplora-cli/commit/9e232491f3ec7e4c79d275fa89f90810bcfbc751))
 - **Dependencies**: Added `Cargo.lock` for reproducible builds ([a829079](https://github.com/1estart/esplora-cli/commit/a8290799077437f8c4504b9e3d727ba5a9d4fd6f))
 
-[[unreleased]]: https://github.com/yancyribbens/esplora-cli/compare/v1.1.1...main  
+[unreleased]: https://github.com/yancyribbens/esplora-cli/compare/v0.1.1...main
 [0.1.1]: https://github.com/yancyribbens/esplora-cli/compare/v0.1...v0.1.1  
 [0.1]:   https://github.com/yancyribbens/esplora-cli/releases/tag/v0.1
