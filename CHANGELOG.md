@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 ## [Unreleased]
+
+## [0.2] - 2026-04-23
+
 ### Added
 - **Git**: Added `.gitignore` file ([4175f53](https://github.com/yancyribbens/esplora-cli/commit/4175f5355423afd6f579e3e02c227c38d3818d3c))
 - **Docs**: Added `CHANGELOG.md` file ([9074018](https://github.com/yancyribbens/esplora-cli/commit/9074018c1c4b49c1586b5f8fd0d630b567fbe9cc))
@@ -31,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **CLI**: Initial release with blocking CLI implementation for [rust-esplora-client](https://github.com/bitcoindevkit/rust-esplora-client) ([9e23249](https://github.com/yancyribbens/esplora-cli/commit/9e232491f3ec7e4c79d275fa89f90810bcfbc751))
 - **Dependencies**: Added `Cargo.lock` for reproducible builds ([a829079](https://github.com/yancyribbens/esplora-cli/commit/a8290799077437f8c4504b9e3d727ba5a9d4fd6f))
 
-[unreleased]: https://github.com/yancyribbens/esplora-cli/compare/v0.1.1...main
+[unreleased]: https://github.com/yancyribbens/esplora-cli/compare/v0.2...main
+[0.2]: https://github.com/yancyribbens/esplora-cli/compare/v0.1.1...v0.2
 [0.1.1]: https://github.com/yancyribbens/esplora-cli/compare/v0.1...v0.1.1  
 [0.1]:   https://github.com/yancyribbens/esplora-cli/releases/tag/v0.1
